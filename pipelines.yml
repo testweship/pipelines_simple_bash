@@ -1,0 +1,8 @@
+pipelines:
+  - name: simple_pipeline
+    steps:
+      - name: simple_bash
+        type: Bash
+        execution:
+          onExecute:
+            - echo "This is a Bash step"
