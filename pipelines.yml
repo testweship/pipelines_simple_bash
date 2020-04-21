@@ -5,4 +5,4 @@ pipelines:
         type: Bash
         execution:
           onExecute:
-            - echo "This is a Bash step"
+            - echo "This is a Bash step!"
